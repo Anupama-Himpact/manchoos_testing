@@ -21,6 +21,7 @@
     global.commons.mouseActions = require('./commons/mouseActions.js');
     global.commons.waitActions = require('./commons/waitActions.js');
     global.commons.verifyActions = require('./commons/verifyActions.js');
+        
 
     global.utils = {};
     global.utils.objectLocator = require('./utils/objectLocator.js');
@@ -29,5 +30,12 @@
     global.pages.loginPage = require('./pages/loginPage');
     global.pages.dashBoardPage = require('./pages/dashBoardPage');
     global.pages.leftNavigationPage = require('./pages/leftNavigationPage');
-
+    global.pages.covidpolicypage= require('./pages/covidpolicypage.js');
+    global.pages.AdminDetailsPage= require('./pages/AdminDetailsPage.js');
+    global.pages.emailConfigarationPage= require('./pages/emailConfigarationPage.js');
+    global.pages.featuresPage= require('./pages/featuresPage.js');
+    global.pages.bankingPage= require('./pages/bankingPage.js');    
+    global.pages.gallarypage= require('./pages/gallarypage.js');
+    global.pages.catagoriesPage=require('./pages/catagoriesPage.js');
+    global.pages.menuPage=require('./pages/menuPage.js');
 }());

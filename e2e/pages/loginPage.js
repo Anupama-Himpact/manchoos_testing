@@ -29,8 +29,6 @@ module.exports = function () {
         inputBoxActions.type(password, value);
         return this;
     };
-
-
     this.clickLogin = function () {
         buttonActions.click(loginButton);
         return this;

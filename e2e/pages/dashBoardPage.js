@@ -3,7 +3,7 @@ module.exports = function () {
     'use strict';
     // Login page
     var objRepo = require('../resources/objectRepository.json');
-    var objLocator = new utils.objectLocator();
+    var objLocator = new utils.objectLocator();//creating the object for calling methods and creating a object
     var inputBoxActions = new commons.inputBoxActions();
     var buttonActions = new commons.buttonActions();
     var waitActions = new commons.waitActions();

@@ -11,4 +11,10 @@ describe('Login Logout Test cases execution ', function () {
         loginPage.login(testData.credentials.userName,testData.credentials.passWord );
         dashBoardPage.logout();
     });
+
+        it('Valet-section-create',function(){
+                valetPage.navigateToValet();
+                valetPage.valetSection(testData.valet.sectionName,testData.valet.sectionCode)
+            })
+        
 });
